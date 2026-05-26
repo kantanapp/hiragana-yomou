@@ -276,7 +276,7 @@ const S = {
   root: {
     minHeight: "100vh", background: `linear-gradient(180deg, ${C.bg} 0%, ${C.bgDeep} 100%)`,
     fontFamily: "'Zen Maru Gothic','M PLUS Rounded 1c',system-ui,sans-serif",
-    color: C.ink, padding: "12px 4px 20px", overflowX: "hidden", width: "100%",
+    color: C.ink, padding: "12px 4px 20px",
     WebkitTapHighlightColor: "transparent", userSelect: "none",
   },
   header: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 },
