@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #FFF6E9;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 子どもの操作で文字選択・長押しメニューが出ないように */
+* {
+  -webkit-touch-callout: none;
+}
+
+/* iPad で input だけは選択・入力できるよう許可 */
+input, textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
