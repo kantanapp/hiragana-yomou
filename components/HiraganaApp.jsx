@@ -276,7 +276,7 @@ const S = {
   root: {
     minHeight: "100vh", background: `linear-gradient(180deg, ${C.bg} 0%, ${C.bgDeep} 100%)`,
     fontFamily: "'Zen Maru Gothic','M PLUS Rounded 1c',system-ui,sans-serif",
-    color: C.ink, padding: "12px 4px 20px", maxWidth: 760, margin: "0 auto",
+    color: C.ink, padding: "12px 4px 20px",
     WebkitTapHighlightColor: "transparent", userSelect: "none",
   },
   header: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 },
@@ -321,12 +321,12 @@ const S = {
   ctrlSub: { background: "#F1E2C8", color: C.ink, fontSize: 18 },
   ctrlRead: { flex: 1.6, background: C.teal, color: "#fff", fontSize: 26, boxShadow: "0 5px 0 " + C.tealDeep },
 
-  keyboard: { display: "flex", flexDirection: "column", gap: 5 },
-  kbRow: { display: "grid", gridTemplateColumns: "repeat(11, 1fr)", gap: 5 },
-  key: { width: "100%", minWidth: 0, aspectRatio: "1 / 1", border: "none", background: C.key, borderRadius: 10, fontFamily: "inherit", fontSize: "clamp(14px, 6vw, 48px)", fontWeight: 700, color: C.ink, cursor: "pointer", boxShadow: `0 4px 0 ${C.keyShadow}`, display: "flex", alignItems: "center", justifyContent: "center", lineHeight: 1, overflow: "hidden" },
-  keyFn: { background: "#FCEFD6", color: C.ink, fontSize: "clamp(18px, 7vw, 48px)", fontWeight: 700, position: "relative" },
+  keyboard: { display: "flex", flexDirection: "column", gap: 4 },
+  kbRow: { display: "grid", gridTemplateColumns: "repeat(11, 1fr)", gap: 4 },
+  key: { width: "100%", minWidth: 0, height: "clamp(36px, 8vh, 80px)", border: "none", background: C.key, borderRadius: 8, fontFamily: "inherit", fontSize: "clamp(14px, min(5vh, 5.5vw), 44px)", fontWeight: 700, color: C.ink, cursor: "pointer", boxShadow: `0 3px 0 ${C.keyShadow}`, display: "flex", alignItems: "center", justifyContent: "center", lineHeight: 1, overflow: "hidden" },
+  keyFn: { background: "#FCEFD6", color: C.ink, fontSize: "clamp(12px, min(4.5vh, 5vw), 38px)", fontWeight: 700, position: "relative" },
   fnMark: { position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -20%)", lineHeight: 1, pointerEvents: "none" },
-  keyKigou: { background: "#F3E7CF", color: C.inkSoft, fontSize: "clamp(10px, 3.5vw, 22px)", fontWeight: 700, aspectRatio: "1 / 1", display: "flex", alignItems: "center", justifyContent: "center" },
+  keyKigou: { background: "#F3E7CF", color: C.inkSoft, fontSize: "clamp(8px, min(2vh, 2.5vw), 16px)", fontWeight: 700, height: "clamp(36px, 8vh, 80px)", display: "flex", alignItems: "center", justifyContent: "center" },
   keyGap: {},
 
   symbolRow: { display: "flex", gap: 5, justifyContent: "flex-start", marginTop: 5 },
