@@ -1,4 +1,5 @@
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "ひらがな よもう",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-ZR6HMSN154" />
     </html>
   );
 }
